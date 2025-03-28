@@ -42,7 +42,6 @@ Route::resource('/sprintbacklog', SprintbacklogController::class)->names('sprint
 
 
 //Para actualizar solo el estado
-//Para actualizar solo el estado
 Route::patch('/sprintbacklog/{id}/updateEstado/{tareaId}', [SprintbacklogController::class, 'updateEstado'])
     ->name('sprintbackloges.updateEstado');
 

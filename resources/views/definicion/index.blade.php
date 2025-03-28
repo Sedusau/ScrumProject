@@ -7,7 +7,7 @@
 @stop
 
 @section('content')
-
+<link rel="shortcut icon" href={{ asset('image/scrum-1.svg') }} type="image/x-icon">
 @if (session('success'))
 <div class="alert alert-success">
     <strong>{{ session('success') }}</strong>

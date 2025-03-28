@@ -4,6 +4,7 @@
 
 @section('content_header')
     <h1>Nueva Definicion</h1>
+    <link rel="shortcut icon" href={{ asset('image/scrum-1.svg') }} type="image/x-icon">
 @stop
 
 @section('content')
