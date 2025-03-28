@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+# Pasos para ejecutar el proyecto
 # ScrumProject
 Herramienta de gestion de proyectos scrum
 =======
