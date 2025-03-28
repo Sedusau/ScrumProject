@@ -1,6 +1,6 @@
 <<<<<<< HEAD
 # Pasos para ejecutar el proyecto  
-1.- Git clone https://.......... .  
+1.- gitclone https://github.com/Sedusau/ScrumProject.git  
 2.- ejecutar composer install.  
 3.- npm install.  
 4.-Configurar la conexion BD (crear el archivo .env ).  
