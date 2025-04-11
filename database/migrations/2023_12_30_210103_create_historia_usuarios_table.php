@@ -22,7 +22,6 @@ return new class extends Migration
             $table->text('descripcion');
             $table->text('observaciones');
             $table->text('criterioaceptacion');
-            $table->text('sentimiento')->nullable();
             $table->timestamps();
         });
     }

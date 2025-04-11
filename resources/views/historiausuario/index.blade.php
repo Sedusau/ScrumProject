@@ -38,7 +38,7 @@
                         <th>DESCRIPCION</th>
                         <th>OBSERVACIONES</th>
                         <th>CRITERIOS DE ACEPTACION</th>
-                        <th>SENTIMIENTOS</th>
+                      <!--  <th>SENTIMIENTOS</th> -->
                         <th colspan="2"></th>
                     </tr>
                 </thead>
@@ -55,7 +55,7 @@
                             <td>{{ $historiausuario->descripcion }}</td>  
                             <td>{{ $historiausuario->observaciones }}</td>
                             <td>{{ $historiausuario->criterioaceptacion }}</td> 
-                            <td>{{ $historiausuario->sentimiento }}</td>                                                       
+                           <!-- <td>{{-- $historiausuario->sentimiento --}}</td> -->  
                             <td width="15px">
                                 @can('historiausuarios.edit')
                                 <a href="{{ route('historiausuarios.edit',$historiausuario) }}" class="btn btn-primary btn-sm">Editar</a>

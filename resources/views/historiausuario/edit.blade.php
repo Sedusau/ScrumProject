@@ -94,8 +94,8 @@
                 @error('criterioaceptacion')
                     <small class="text-danger">{{ $message }}</small>
                 @enderror
-                 <!-- Mostrar el sentimiento -->
-            <p><strong>Sentimiento:</strong> {{ $historiausuario->sentimiento }}</p>
+                 <!-- Mostrar el sentimiento 
+            <p><strong>Sentimiento:</strong>  {{-- $historiausuario->sentimiento --}}</p> -->
             </div>
 
 
